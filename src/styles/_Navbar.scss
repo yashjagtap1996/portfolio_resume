@@ -1,0 +1,51 @@
+#Navbar {
+    line-height: 2.5rem;
+    background-image: linear-gradient(135deg, #3B2667 10%, #BC78EC 100%);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    .icon {
+        font-size: 3.5rem;
+        color: #8c86f0;
+    }
+    a{
+        cursor: pointer;
+        &:hover {
+            color: black;
+        }
+    }
+    .active{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    ul {
+        @media (max-width:767px) {
+            animation-name: slide-in;
+            animation-timing-function: linear;
+            animation-duration: 500ms;
+
+            @keyframes slide-in {
+                0% {
+                    -webkit-transform: translateX(100%);
+                }
+
+                100% {
+                    -webkit-transform: translateX(0%);
+                }
+            }
+        }
+    }
+
+    li {
+        font-size: 2.5rem;
+        margin: 0 1.6rem;
+    }
+
+    .mode {
+        font-size: 3.5rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+}

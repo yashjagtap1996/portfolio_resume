@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+@import "styles/Navbar";
+@import "styles/Home_Page";
+@import "styles/About_Page";
+@import "styles/Skills_Page";
+@import "styles/Contact_Page";
+@import "styles/Footer_Page";
+
+@media (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+}

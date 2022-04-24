@@ -1,0 +1,28 @@
+#Skills_Page {
+    font-size: 2rem;
+    min-height: 100vh;
+    
+    .bar {
+        background-color: aliceblue;
+        border: 1px solid black;
+        height: 18px;
+        margin-bottom: 2rem;
+
+        .per-Bar {
+            height: 15.9px;
+            background-color:#4E944F;
+        }
+    }
+    .responsive{
+        span{
+            font-size: 7rem;
+        }
+    }
+    .figma{
+        span{
+            font-size: 7rem;
+            color:#f4128f;
+        }
+    }
+    
+}
